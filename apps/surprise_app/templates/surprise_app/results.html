@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Results!</title>
+	</head>
+	<body>
+		<h1>Surprises:</h1>
+		<fieldset>
+			{% for item in list %}
+				<h3>{{ item }}</h3>
+			{% endfor %}
+		</fieldset>
+	</body>
+</html>
